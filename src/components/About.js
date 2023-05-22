@@ -22,7 +22,7 @@ const About = () => {
             <Col md={12} lg={6} className='d-flex justify-content-center align-items-center'>
               <img className='img-fluid'
                 src={profile}
-                alt="picture of Jack Smith, Founder of ArchiVerse"
+                alt="Jack Smith, Founder of ArchiVerse"
               />
             </Col>
           </Row>

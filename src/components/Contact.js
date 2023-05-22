@@ -48,22 +48,23 @@ const Contact = () => {
               label="Name"
               className="mb-3"
             >
-              <Form.Control type="text" placeholder="Your name" onChange={(e) => setName(e.target.value)} required/>
+              <Form.Control type="text" value={name} placeholder="Your name" onChange={(e) => setName(e.target.value)} required/>
             </FloatingLabel>
             <FloatingLabel
               controlId="floatingInput"
               label="Email address"
               className="mb-3"
             >
-              <Form.Control type="email" placeholder="name@example.com" onChange={(e) => setEmail(e.target.value)} required/>
+              <Form.Control type="email" value={email} placeholder="name@example.com" onChange={(e) => setEmail(e.target.value)} required/>
             </FloatingLabel>
             <FloatingLabel controlId="floatingPassword" label="Phone">
-              <Form.Control type="text" placeholder="Phone" onChange={(e) => setPhone(e.target.value)} required/>
+              <Form.Control type="text" value={phone} placeholder="Phone" onChange={(e) => setPhone(e.target.value)} required/>
             </FloatingLabel>
            
             <FloatingLabel controlId="floatingTextarea2" label="Your Message">
               <Form.Control className='my-2'
                 as="textarea"
+                value={message}
                 placeholder="Leave a message here"
                 style={{ height: '100px' }}
                 onChange={(e) => setMessage(e.target.value)} required
