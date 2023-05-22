@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React website for a fictional architectural firm
+Open [https://main--superlative-macaron-4beab2.netlify.app/] view the deployed build 
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
