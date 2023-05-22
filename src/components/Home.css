@@ -1,0 +1,28 @@
+body{
+  height: 100vh;
+}
+#home{
+  height: 85vh;
+  background: url(../assets/images/home-main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+#home .overlay-dark {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+  width: 100%;
+}
+#home .row{
+  height: inherit;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#home .row h1 {
+  color: white;
+}
+
